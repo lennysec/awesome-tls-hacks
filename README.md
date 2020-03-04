@@ -70,7 +70,7 @@
 ## Some Open Source Implementations of TLS
 
 | Implementation | Developed by | Written in | URL |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- |
 | BoringSSL | Google | C, C++, Go, assembly | [https://boringssl.googlesource.com/boringssl](https://boringssl.googlesource.com/boringssl) |
 | Fizz | Facebook | C++ | [https://github.com/facebookincubator/fizz](https://github.com/facebookincubator/fizz) |
 | GnuTLS | GnuTLS project | C | [https://www.gnutls.org/](https://www.gnutls.org/) |
