@@ -73,10 +73,10 @@
 | --- | --- | --- |
 | [BoringSSL](https://github.com/google/boringssl) | Google | C, C++, Go, assembly |
 | [Fizz](https://github.com/facebookincubator/fizz) | Facebook | C++ |
-| [GnuTLS](https://www.gnutls.org/) | GnuTLS project | C |
+| [GnuTLS](https://www.gnutls.org/) | GnuTLS Project | C |
 | [LibreSSL](https://www.libressl.org/) | OpenBSD Project | C, assembly |
 | [MatrixSSL](https://github.com/matrixssl/matrixssl) | PeerSec Networks | C |
-| [OpenSSL](https://github.com/openssl/openssl) | OpenSSL project | C, assembly |
+| [OpenSSL](https://github.com/openssl/openssl) | OpenSSL Project | C, assembly |
 | [S2n](https://github.com/awslabs/s2n) | Amazon | C |
 | [wolfSSL](https://github.com/wolfSSL/wolfssl) | wolfSSL | C |
 
