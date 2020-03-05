@@ -82,20 +82,14 @@
 
 ## Glossary
 
-SSL: Secure Sockets Layer
-
-TLS: Transport Layer Security
-
-IETF: Internet Engineering Task Force
-
-POODLE: Padding Oracle On Downgrade Legacy Encryption
-
-DROWN: Decrypting RSA using Obsolete and Weakened eNcryption
-
-CRIME: Compression Ratio Info-leak Made Easy
-
-TIME: Timing Info-leak Made Easy
-
-BREACH: Browser Reconnaissance & Exfiltration via Adaptive Compression of Hypertext
-
-FREAK: Factoring RSA Export Keys
+| Abbreviation | Explanation |
+| --- | --- |
+| SSL | Secure Sockets Layer |
+| TLS | Transport Layer Security |
+| IETF | Internet Engineering Task Force |
+| POODLE | Padding Oracle On Downgrade Legacy Encryption |
+| DROWN | Decrypting RSA using Obsolete and Weakened eNcryption |
+| CRIME | Compression Ratio Info-leak Made Easy |
+| TIME | Timing Info-leak Made Easy |
+| BREACH | Browser Reconnaissance & Exfiltration via Adaptive Compression of Hypertext |
+| FREAK | Factoring RSA Export Keys |
