@@ -69,16 +69,16 @@
 
 ## Some Open Source Implementations of TLS
 
-| Implementation | Developed by | Written in | URL |
-| --- | --- | --- | --- |
-| BoringSSL | Google | C, C++, Go, assembly | [https://boringssl.googlesource.com/boringssl](https://boringssl.googlesource.com/boringssl) |
-| Fizz | Facebook | C++ | [https://github.com/facebookincubator/fizz](https://github.com/facebookincubator/fizz) |
-| GnuTLS | GnuTLS project | C | [https://www.gnutls.org/](https://www.gnutls.org/) |
-| LibreSSL | OpenBSD Project | C, assembly | [https://www.libressl.org/](https://www.libressl.org/) |
-| MatrixSSL | PeerSec Networks | C | [https://github.com/matrixssl/matrixssl](https://github.com/matrixssl/matrixssl) |
-| OpenSSL | OpenSSL project | C, assembly | [https://github.com/openssl/openssl](https://github.com/openssl/openssl) |
-| S2n | Amazon | C | [https://github.com/awslabs/s2n](https://github.com/awslabs/s2n) |
-| wolfSSL | wolfSSL | C | [https://github.com/wolfSSL/wolfssl](https://github.com/wolfSSL/wolfssl) |
+| Implementation | Developed by | Written in |
+| --- | --- | --- |
+| [BoringSSL](https://github.com/google/boringssl) | Google | C, C++, Go, assembly |
+| [Fizz](https://github.com/facebookincubator/fizz) | Facebook | C++ |
+| [GnuTLS](https://www.gnutls.org/) | GnuTLS project | C |
+| [LibreSSL](https://www.libressl.org/) | OpenBSD Project | C, assembly |
+| [MatrixSSL](https://github.com/matrixssl/matrixssl) | PeerSec Networks | C |
+| [OpenSSL](https://github.com/openssl/openssl) | OpenSSL project | C, assembly |
+| [S2n](https://github.com/awslabs/s2n) | Amazon | C |
+| [wolfSSL](https://github.com/wolfSSL/wolfssl) | wolfSSL | C |
 
 ## Glossary
 
