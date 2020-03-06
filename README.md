@@ -36,7 +36,7 @@
 | --- | --- | --- | --- |
 | Bleichenbacher | 2003/09 | SSL 3.0 | [Klima, Vlastimil, Ondrej Pokorný, and Tomáš Rosa. "Attacking RSA-based sessions in SSL/TLS." International Workshop on Cryptographic Hardware and Embedded Systems. Springer, Berlin, Heidelberg, 2003.](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.304.9703&rep=rep1&type=pdf) |
 | BEAST | 2011/05 | SSL 3.0, TLS 1.0 | [Rizzo, Juliano, and Thai Duong. "Here come the xor ninjas." In Ekoparty Security Conference, 2011.](https://nerdoholic.org/uploads/dergln/beast_part2/ssl_jun21.pdf) |
-| Lucky Thirteen | 2013/02 | SSL 3.0, TLS 1.0/1.1/1.2 | [Al Fardan, Nadhem J., and Kenneth G. Paterson. "Lucky thirteen: Breaking the TLS and DTLS record protocols." 2013 IEEE Symposium on Security and Privacy. IEEE, 2013.](http://isg.rhul.ac.uk/tls/TLStiming.pdf) |
+| Lucky Thirteen | 2013/02 | SSL 3.0, TLS 1.0, TLS 1.1, TLS 1.2 | [Al Fardan, Nadhem J., and Kenneth G. Paterson. "Lucky thirteen: Breaking the TLS and DTLS record protocols." 2013 IEEE Symposium on Security and Privacy. IEEE, 2013.](http://isg.rhul.ac.uk/tls/TLStiming.pdf) |
 | POODLE | 2014/10 | SSL 3.0 | [Möller, Bodo, Thai Duong, and Krzysztof Kotowicz. "This POODLE bites: exploiting the SSL 3.0 fallback." Security Advisory (2014).](https://computergeek.nl/wp-content/uploads/2014/10/ssl-poodle.pdf) |
 | DROWN | 2016/08 | SSL 2.0 | [Aviram, Nimrod, et al. "DROWN: Breaking TLS Using SSLv2." 25th USENIX Security Symposium (USENIX Security 16). 2016.](https://drownattack.com/drown-attack-paper.pdf) |
 
@@ -69,16 +69,16 @@
 
 ## Some Open Source Implementations of TLS
 
-| Implementation | Developed by | Written in |
-| --- | --- | --- |
-| [BoringSSL](https://github.com/google/boringssl) | Google | C, C++, Go, assembly |
-| [Fizz](https://github.com/facebookincubator/fizz) | Facebook | C++ |
-| [GnuTLS](https://www.gnutls.org/) | GnuTLS Project | C |
-| [LibreSSL](https://www.libressl.org/) | OpenBSD Project | C, assembly |
-| [MatrixSSL](https://github.com/matrixssl/matrixssl) | PeerSec Networks | C |
-| [OpenSSL](https://github.com/openssl/openssl) | OpenSSL Project | C, assembly |
-| [S2n](https://github.com/awslabs/s2n) | Amazon | C |
-| [wolfSSL](https://github.com/wolfSSL/wolfssl) | wolfSSL | C |
+| Implementation | Initial release | Developed by | Written in |
+| --- | --- | --- | --- |
+| [OpenSSL](https://github.com/openssl/openssl) | 1998/12 | OpenSSL Project | C, assembly |
+| [GnuTLS](https://gitlab.com/gnutls/gnutls) | 2000/03 | GnuTLS Project | C |
+| [wolfSSL](https://github.com/wolfSSL/wolfssl) | 2011/02 | wolfSSL | C |
+| [BoringSSL](https://github.com/google/boringssl) | 2014/06 | Google | C, C++, Go, assembly |
+| [S2n](https://github.com/awslabs/s2n) | 2014/06 | Amazon | C |
+| [LibreSSL](https://www.libressl.org/) | 2014/07 | OpenBSD Project | C, assembly |
+| [MatrixSSL](https://github.com/matrixssl/matrixssl) | 2015/03 | PeerSec Networks | C |
+| [Fizz](https://github.com/facebookincubator/fizz) | 2018/06 | Facebook | C++ |
 
 ## Glossary
 
