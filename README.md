@@ -11,12 +11,12 @@
       - [RC4 Issues](#rc4-issues)
       - [Compression Issues](#compression-issues)
     - [Implementation Issues](#implementation-issues)
-  - [Some Open Source Implementations of TLS](#some-open-source-implementations-of-tls)
+  - [Some Open Source Implementations of SSL/TLS](#some-open-source-implementations-of-ssltls)
   - [Glossary](#glossary)
 
 ## SSL/TLS Protocol History
 
-| Protocol Name | Release Time | Author | RFC |
+| Protocol Name | Release Date | Author | RFC |
 | --- | --- | --- | --- |
 | SSL 1.0 | N/A | Netscape | N/A |
 | SSL 2.0 | 1995 | Netscape | N/A |
@@ -32,7 +32,7 @@
 
 #### CBC Issues
 
-| Attack Name | Published Time | Affected Version | Paper |
+| Attack Name | Published Date | Affected Version | Paper |
 | --- | --- | --- | --- |
 | Bleichenbacher | 2003/09 | SSL 3.0 | [Klima, Vlastimil, Ondrej Pokorný, and Tomáš Rosa. "Attacking RSA-based sessions in SSL/TLS." International Workshop on Cryptographic Hardware and Embedded Systems. Springer, Berlin, Heidelberg, 2003.](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.304.9703&rep=rep1&type=pdf) |
 | BEAST | 2011/05 | SSL 3.0, TLS 1.0 | [Rizzo, Juliano, and Thai Duong. "Here come the xor ninjas." In Ekoparty Security Conference, 2011.](https://nerdoholic.org/uploads/dergln/beast_part2/ssl_jun21.pdf) |
@@ -42,7 +42,7 @@
 
 #### RC4 Issues
 
-| Attack Name | Published Time | Paper |
+| Attack Name | Published Date | Paper |
 | --- | --- | --- |
 | Single-byte Bias & Double-byte Bias | 2013/07 | [AlFardan, Nadhem, et al. "On the Security of RC4 in TLS." Presented as part of the 22nd USENIX Security Symposium (USENIX Security 13). 2013.](https://profs.info.uaic.ro/~fltiplea/CC/ABPPS2013.pdf) |
 | N/A | 2015/03 | [Garman, Christina, Kenneth G. Paterson, and Thyla Van der Merwe. "Attacks Only Get Better: Password Recovery Attacks Against RC4 in TLS." 24th USENIX Security Symposium (USENIX Security 15). 2015.](https://pdfs.semanticscholar.org/698a/16014ca19866c247348e1f00af48d5b2acfe.pdf) |
@@ -51,7 +51,7 @@
 
 #### Compression Issues
 
-| Attack Name | Published Time | Paper |
+| Attack Name | Published Date | Paper |
 | --- | --- | --- |
 | CRIME | 2012/09 | [Rizzo, Juliano, and Thai Duong. "The CRIME attack." Ekoparty Security Conference. 2012.](http://netifera.com/research/crime/CRIME_ekoparty2012.pdf) |
 | TIME | 2013/03 | [Be’ery, Tal, and Amichai Shulman. "A perfect CRIME? only TIME will tell." Black Hat Europe 2013 (2013).](https://media.blackhat.com/eu-13/briefings/Beery/bh-eu-13-a-perfect-crime-beery-wp.pdf) |
@@ -59,7 +59,7 @@
 
 ### Implementation Issues
 
-| Attack Name | Published Time | Paper |
+| Attack Name | Published Date | Paper |
 | --- | --- | --- |
 | OpenSSL Heartbleed | 2014/04 | [Durumeric, Zakir, et al. "The matter of heartbleed." Proceedings of the 2014 conference on internet measurement conference. 2014.](http://conferences2.sigcomm.org/imc/2014/papers/p475.pdf) |
 | Triple Handshake | 2014/05 | [Bhargavan, Karthikeyan, et al. "Triple handshakes and cookie cutters: Breaking and fixing authentication over TLS." 2014 IEEE Symposium on Security and Privacy. IEEE, 2014.](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.686.2786&rep=rep1&type=pdf) |
@@ -67,16 +67,16 @@
 | Logjam | 2015/10| [Adrian, David, et al. "Imperfect forward secrecy: How Diffie-Hellman fails in practice." Proceedings of the 22nd ACM SIGSAC Conference on Computer and Communications Security. 2015.](https://weakdh.org/imperfect-forward-secrecy.pdf) |
 | SLOTH | 2016/02 | [Bhargavan, Karthikeyan, and Gaëtan Leurent. "Transcript Collision Attacks: Breaking Authentication in TLS, IKE, and SSH." In Network and Distributed System Security Symposium (NDSS). 2016.](https://www.ndss-symposium.org/wp-content/uploads/2017/09/transcript-collision-attacks-breaking-authentication-tls-ike-ssh.pdf) |
 
-## Some Open Source Implementations of TLS
+## Some Open Source Implementations of SSL/TLS
 
 | Implementation | Initial release | Developed by | Written in |
 | --- | --- | --- | --- |
-| [OpenSSL](https://github.com/openssl/openssl) | 1998/12 | OpenSSL Project | C, assembly |
+| [OpenSSL](https://github.com/openssl/openssl) | 1998/12 | OpenSSL Project | C, Assembly |
 | [GnuTLS](https://gitlab.com/gnutls/gnutls) | 2000/03 | GnuTLS Project | C |
 | [wolfSSL](https://github.com/wolfSSL/wolfssl) | 2011/02 | wolfSSL | C |
-| [BoringSSL](https://github.com/google/boringssl) | 2014/06 | Google | C, C++, Go, assembly |
-| [S2n](https://github.com/awslabs/s2n) | 2014/06 | Amazon | C |
-| [LibreSSL](https://www.libressl.org/) | 2014/07 | OpenBSD Project | C, assembly |
+| [BoringSSL](https://github.com/google/boringssl) | 2014/06 | Google | C, C++, Go, Assembly |
+| [s2n](https://github.com/awslabs/s2n) | 2014/06 | Amazon | C |
+| [LibreSSL](https://www.libressl.org/) | 2014/07 | OpenBSD Project | C, Assembly |
 | [MatrixSSL](https://github.com/matrixssl/matrixssl) | 2015/03 | PeerSec Networks | C |
 | [Fizz](https://github.com/facebookincubator/fizz) | 2018/06 | Facebook | C++ |
 
