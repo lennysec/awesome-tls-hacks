@@ -13,7 +13,7 @@
     - [Implementation Issues](#implementation-issues)
   - [Some Open Source Implementations of SSL/TLS](#some-open-source-implementations-of-ssltls)
   - [OpenSSL Version History](#openssl-version-history)
-  - [Useful Tools](#useful-tools)
+  - [Tools](#tools)
     - [Fuzzing](#fuzzing)
     - [Programing](#programing)
   - [Glossary](#glossary)
@@ -102,7 +102,7 @@
 | 1.1.0 | 2016-08-25 | 1.1.0l | 2019-09-10 |
 | 1.1.1 | 2018-09-11 | 1.1.1d | 2019-09-10 |
 
-## Useful Tools
+## Tools
 
 ### Fuzzing
 
@@ -124,7 +124,7 @@ The New Illustrated TLS Connection
 [https://tls13.ulfheim.net/](https://tls13.ulfheim.net/)
 
 Python built-in TLS wrapper  
-[https://docs.python.org/zh-cn/3.7/library/ssl.html](https://docs.python.org/zh-cn/3.7/library/ssl.html)
+[https://docs.python.org/3.8/library/ssl.html](https://docs.python.org/3.8/library/ssl.html)
 
 TLS implementation in pure python  
 [https://github.com/tomato42/tlslite-ng](https://github.com/tomato42/tlslite-ng)
