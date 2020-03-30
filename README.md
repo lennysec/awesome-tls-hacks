@@ -13,6 +13,9 @@
     - [Implementation Issues](#implementation-issues)
   - [Some Open Source Implementations of SSL/TLS](#some-open-source-implementations-of-ssltls)
   - [OpenSSL Version History](#openssl-version-history)
+  - [Vulnerabilities](#vulnerabilities)
+    - [Fizz Vulnerabilities](#fizz-vulnerabilities)
+    - [OpenSSL Vulnerabilities](#openssl-vulnerabilities)
   - [Tools](#tools)
     - [Fuzzing](#fuzzing)
     - [Programing](#programing)
@@ -102,32 +105,43 @@
 | 1.1.0 | 2016-08-25 | 1.1.0l | 2019-09-10 |
 | 1.1.1 | 2018-09-11 | 1.1.1d | 2019-09-10 |
 
+## Vulnerabilities
+
+### Fizz Vulnerabilities
+
+| CVE-ID |  Disclosure date | Type | Analysis |
+| --- | --- | --- | --- |
+| CVE-2019-3560 | 2019-02-26 | Server Side DoS | [Facebook Fizz integer overflow vulnerability (CVE-2019-3560)](https://securitylab.github.com/research/facebook-fizz-CVE-2019-3560) |
+| CVE-2019-11924 | 2019-08-09 | Server Side Memory Leak | [Facebook Fizz memory leak vulnerability (CVE-2019-11924) reproduce and analysis](https://lenny233.github.io/2020/03/30/fizz-memory-leak-analysis/) |
+
+### OpenSSL Vulnerabilities
+
 ## Tools
 
 ### Fuzzing
 
 tlsfuzzer  
-[https://github.com/tomato42/tlsfuzzer](https://github.com/tomato42/tlsfuzzer)
+<https://github.com/tomato42/tlsfuzzer>
 
 boofuzz  
-[https://github.com/jtpereyda/boofuzz](https://github.com/jtpereyda/boofuzz)
+<https://github.com/jtpereyda/boofuzz>
 
 Fuzzowski  
-[https://github.com/nccgroup/fuzzowski](https://github.com/jtpereyda/boofuzz)
+<https://github.com/jtpereyda/boofuzz>
 
 AFLNet  
-[https://github.com/aflnet/aflnet](https://github.com/jtpereyda/boofuzz)
+<https://github.com/jtpereyda/boofuzz>
 
 ### Programing
 
 The New Illustrated TLS Connection  
-[https://tls13.ulfheim.net/](https://tls13.ulfheim.net/)
+<https://tls13.ulfheim.net/>
 
 Python built-in TLS wrapper  
-[https://docs.python.org/3.8/library/ssl.html](https://docs.python.org/3.8/library/ssl.html)
+<https://docs.python.org/3.8/library/ssl.html>
 
 TLS implementation in pure python  
-[https://github.com/tomato42/tlslite-ng](https://github.com/tomato42/tlslite-ng)
+<https://github.com/tomato42/tlslite-ng>
 
 ## Glossary
 
