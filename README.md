@@ -143,6 +143,9 @@ Python built-in TLS wrapper
 TLS implementation in pure python  
 <https://github.com/tomato42/tlslite-ng>
 
+Scapy: the Python-based interactive packet manipulation program & library  
+<https://github.com/secdev/scapy/>
+
 ## Glossary
 
 | Abbreviation | Explanation |
