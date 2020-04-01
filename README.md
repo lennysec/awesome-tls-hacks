@@ -39,7 +39,7 @@
 
 #### CBC Issues
 
-| <div style="width:130px">Attack Name</div> | <div style="width:100px">Published Date</div> | Affected Version | Paper |
+| Attack Name | Published Date | Affected Version | Paper |
 | --- | --- | --- | --- |
 | Bleichenbacher | 2003-09 | SSL 3.0 | [Klima, Vlastimil, Ondrej Pokorný, and Tomáš Rosa. "Attacking RSA-based sessions in SSL/TLS." International Workshop on Cryptographic Hardware and Embedded Systems. Springer, Berlin, Heidelberg, 2003.](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.304.9703&rep=rep1&type=pdf) |
 | BEAST | 2011-05 | SSL 3.0, TLS 1.0 | [Rizzo, Juliano, and Thai Duong. "Here come the xor ninjas." In Ekoparty Security Conference, 2011.](https://nerdoholic.org/uploads/dergln/beast_part2/ssl_jun21.pdf) |
@@ -49,7 +49,7 @@
 
 #### RC4 Issues
 
-| <div style="width:130px">Attack Name</div> | <div style="width:100px">Published Date</div> | Paper |
+| Attack Name | Published Date | Paper |
 | --- | --- | --- |
 | Single-byte Bias & Double-byte Bias | 2013-07 | [AlFardan, Nadhem, et al. "On the Security of RC4 in TLS." Presented as part of the 22nd USENIX Security Symposium (USENIX Security 13). 2013.](https://profs.info.uaic.ro/~fltiplea/CC/ABPPS2013.pdf) |
 | N/A | 2015-03 | [Garman, Christina, Kenneth G. Paterson, and Thyla Van der Merwe. "Attacks Only Get Better: Password Recovery Attacks Against RC4 in TLS." 24th USENIX Security Symposium (USENIX Security 15). 2015.](https://pdfs.semanticscholar.org/698a/16014ca19866c247348e1f00af48d5b2acfe.pdf) |
@@ -58,7 +58,7 @@
 
 #### Compression Issues
 
-| <div style="width:130px">Attack Name</div> | <div style="width:100px">Published Date</div> | Paper |
+| Attack Name | Published Date | Paper |
 | --- | --- | --- |
 | CRIME | 2012-09 | [Rizzo, Juliano, and Thai Duong. "The CRIME attack." Ekoparty Security Conference. 2012.](http://netifera.com/research/crime/CRIME_ekoparty2012.pdf) |
 | TIME | 2013-03 | [Be’ery, Tal, and Amichai Shulman. "A perfect CRIME? only TIME will tell." Black Hat Europe 2013 (2013).](https://media.blackhat.com/eu-13/briefings/Beery/bh-eu-13-a-perfect-crime-beery-wp.pdf) |
@@ -66,7 +66,7 @@
 
 ### Implementation Issues
 
-| <div style="width:130px">Attack Name<div> | <div style="width:100px">Published Date</div> | Paper |
+| Attack Name | Published Date | Paper |
 | --- | --- | --- |
 | OpenSSL Heartbleed | 2014-04 | [Durumeric, Zakir, et al. "The matter of heartbleed." Proceedings of the 2014 conference on internet measurement conference. 2014.](http://conferences2.sigcomm.org/imc/2014/papers/p475.pdf) |
 | Triple Handshake | 2014-05 | [Bhargavan, Karthikeyan, et al. "Triple handshakes and cookie cutters: Breaking and fixing authentication over TLS." 2014 IEEE Symposium on Security and Privacy. IEEE, 2014.](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.686.2786&rep=rep1&type=pdf) |
@@ -109,7 +109,7 @@
 
 ### Fizz Vulnerabilities
 
-| <div style="width:120px">CVE-ID</div> |  <div style="width:120px">Disclosure date</div> | Type | Analysis |
+| CVE-ID |  Disclosure date | Type | Analysis |
 | --- | --- | --- | --- |
 | CVE-2019-3560 | 2019-02-26 | Server Side DoS | [Facebook Fizz integer overflow vulnerability (CVE-2019-3560)](https://securitylab.github.com/research/facebook-fizz-CVE-2019-3560) |
 | CVE-2019-11924 | 2019-08-09 | Server Side Memory Leak | [Facebook Fizz memory leak vulnerability (CVE-2019-11924) reproduce and analysis](https://lenny233.github.io/2020/03/30/fizz-memory-leak-analysis/) |
