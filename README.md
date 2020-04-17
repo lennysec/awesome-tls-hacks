@@ -78,6 +78,7 @@
 
 | Implementation | Initial release | Developed by | Written in |
 | --- | --- | --- | --- |
+| [NSS](https://hg.mozilla.org/projects/nss) | 1998-03 | Mozilla, AOL, Red Hat, Sun, Oracle, Google and others | C, Assembly |
 | [OpenSSL](https://github.com/openssl/openssl) | 1998-12 | OpenSSL Project | C, Assembly |
 | [GnuTLS](https://gitlab.com/gnutls/gnutls) | 2000-03 | GnuTLS Project | C |
 | [wolfSSL](https://github.com/wolfSSL/wolfssl) | 2011-02 | wolfSSL | C |
