@@ -81,11 +81,11 @@
 | [NSS](https://hg.mozilla.org/projects/nss) | 1998-03 | Mozilla, AOL, Red Hat, Sun, Oracle, Google and others | C, Assembly |
 | [OpenSSL](https://github.com/openssl/openssl) | 1998-12 | OpenSSL Project | C, Assembly |
 | [GnuTLS](https://gitlab.com/gnutls/gnutls) | 2000-03 | GnuTLS Project | C |
-| [wolfSSL](https://github.com/wolfSSL/wolfssl) | 2011-02 | wolfSSL | C |
+| [MatrixSSL](https://github.com/matrixssl/matrixssl) | 2004-01 | PeerSec Networks | C |
+| [wolfSSL](https://github.com/wolfSSL/wolfssl) | 2006-02 | wolfSSL | C |
 | [BoringSSL](https://github.com/google/boringssl) | 2014-06 | Google | C, C++, Go, Assembly |
 | [s2n](https://github.com/awslabs/s2n) | 2014-06 | Amazon | C |
 | [LibreSSL](https://www.libressl.org/) | 2014-07 | OpenBSD Project | C, Assembly |
-| [MatrixSSL](https://github.com/matrixssl/matrixssl) | 2015-03 | PeerSec Networks | C |
 | [Fizz](https://github.com/facebookincubator/fizz) | 2018-06 | Facebook | C++ |
 
 ## OpenSSL Version History
