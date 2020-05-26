@@ -10,6 +10,7 @@
       - [CBC Issues](#cbc-issues)
       - [RC4 Issues](#rc4-issues)
       - [Compression Issues](#compression-issues)
+      - [RSA Issues](#rsa-issues)
     - [Implementation Issues](#implementation-issues)
   - [Some Open Source Implementations of SSL/TLS](#some-open-source-implementations-of-ssltls)
   - [OpenSSL Version History](#openssl-version-history)
@@ -19,6 +20,8 @@
   - [Tools](#tools)
     - [Fuzzing](#fuzzing)
     - [Programing](#programing)
+    - [Scanning](#scanning)
+    - [Others](#others)
   - [Glossary](#glossary)
 
 ## SSL/TLS Protocol History
@@ -63,6 +66,13 @@
 | CRIME | 2012-09 | [Rizzo, Juliano, and Thai Duong. "The CRIME attack." Ekoparty Security Conference. 2012.](http://netifera.com/research/crime/CRIME_ekoparty2012.pdf) |
 | TIME | 2013-03 | [Be’ery, Tal, and Amichai Shulman. "A perfect CRIME? only TIME will tell." Black Hat Europe 2013 (2013).](https://media.blackhat.com/eu-13/briefings/Beery/bh-eu-13-a-perfect-crime-beery-wp.pdf) |
 | BREACH | 2013-03 | [Prado, A., N. Harris, and Y. Gluck. "The BREACH Attack." (2013).](http://breachattack.com/)|
+
+#### RSA Issues
+
+| Attack Name | Published Date | Paper |
+| --- | --- | --- |
+| Adaptive chosen ciphertext attack | 1998-08 | [Bleichenbacher, Daniel. "Chosen ciphertext attacks against protocols based on the RSA encryption standard PKCS# 1." Annual International Cryptology Conference. Springer, Berlin, Heidelberg, 1998.](https://link.springer.com/content/pdf/10.1007/BFb0055716.pdf) |
+| ROBOT | 2018-08 | [Böck, Hanno, Juraj Somorovsky, and Craig Young. "Return Of Bleichenbacher’s Oracle Threat (ROBOT)." 27th USENIX Security Symposium (USENIX Security 18). 2018.](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-bock.pdf) |
 
 ### Implementation Issues
 
@@ -135,17 +145,27 @@ AFLNet
 
 ### Programing
 
-The New Illustrated TLS Connection  
-<https://tls13.ulfheim.net/>
-
 Python built-in TLS wrapper  
 <https://docs.python.org/3.8/library/ssl.html>
 
-TLS implementation in pure python  
+tlslite-ng: TLS implementation in pure python  
 <https://github.com/tomato42/tlslite-ng>
 
 Scapy: the Python-based interactive packet manipulation program & library  
 <https://github.com/secdev/scapy/>
+
+### Scanning
+
+SSLyze: Fast and powerful SSL/TLS scanning library  
+<https://github.com/nabla-c0d3/sslyze>
+
+testSSL: Testing TLS/SSL encryption  
+<https://github.com/drwetter/testssl.sh>
+
+### Others
+
+The New Illustrated TLS Connection  
+<https://tls13.ulfheim.net/>
 
 ## Glossary
 
