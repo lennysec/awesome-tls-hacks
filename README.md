@@ -162,6 +162,9 @@ SSLyze: Fast and powerful SSL/TLS scanning library
 testSSL: Testing TLS/SSL encryption  
 <https://github.com/drwetter/testssl.sh>
 
+Qualys SSL Labs online tests
+<https://www.ssllabs.com/projects/index.html>
+
 ### Others
 
 The New Illustrated TLS Connection  
