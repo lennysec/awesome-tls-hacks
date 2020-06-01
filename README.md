@@ -152,6 +152,9 @@ AFLNet
 Python built-in TLS wrapper  
 <https://docs.python.org/3.8/library/ssl.html>
 
+Go Package tls
+<https://golang.org/pkg/crypto/tls/>
+
 tlslite-ng: TLS implementation in pure python  
 <https://github.com/tomato42/tlslite-ng>
 
