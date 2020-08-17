@@ -97,6 +97,7 @@
 | [BoringSSL](https://github.com/google/boringssl) | 2014-06 | Google | C, C++, Go, Assembly |
 | [s2n](https://github.com/awslabs/s2n) | 2014-06 | Amazon | C |
 | [LibreSSL](https://www.libressl.org/) | 2014-07 | OpenBSD Project | C, Assembly |
+| [Rustls](https://github.com/ctz/rustls) | 2016-05 | Joseph Birr-Pixton etc. | Rust |
 | [Fizz](https://github.com/facebookincubator/fizz) | 2018-06 | Facebook | C++ |
 
 More information:  
