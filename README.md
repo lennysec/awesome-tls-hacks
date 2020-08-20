@@ -143,10 +143,10 @@ boofuzz
 <https://github.com/jtpereyda/boofuzz>
 
 Fuzzowski  
-<https://github.com/jtpereyda/boofuzz>
+<https://github.com/nccgroup/fuzzowski>
 
 AFLNet  
-<https://github.com/jtpereyda/boofuzz>
+<https://github.com/aflnet/aflnet>
 
 ### Programing
 
