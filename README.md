@@ -128,7 +128,7 @@ More information:
 | CVE-ID |  Disclosure date | Type | Analysis |
 | --- | --- | --- | --- |
 | CVE-2019-3560 | 2019-02-26 | Server Side DoS | [Facebook Fizz integer overflow vulnerability (CVE-2019-3560)](https://securitylab.github.com/research/facebook-fizz-CVE-2019-3560) |
-| CVE-2019-11924 | 2019-08-09 | Server Side Memory Leak | [Facebook Fizz memory leak vulnerability (CVE-2019-11924) reproduce and analysis](https://lenny233.github.io/2020/03/30/fizz-memory-leak-analysis/) |
+| CVE-2019-11924 | 2019-08-09 | Server Side Memory Leak | [Facebook Fizz memory leak vulnerability (CVE-2019-11924) reproduce and analysis](https://lennysec.github.io/fizz-memory-leak-analysis/) |
 
 ### OpenSSL Vulnerabilities
 
