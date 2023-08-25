@@ -120,16 +120,13 @@ More information:
 | 1.1.0 | 2016-08-25 | 1.1.0l | 2019-09-10 |
 | 1.1.1 | 2018-09-11 | 1.1.1l | 2021-08-24 |
 
-## Vulnerabilities
-
-### Fizz Vulnerabilities
+## Vulnerabilities with Details
 
 | CVE-ID |  Disclosure date | Type | Analysis |
 | --- | --- | --- | --- |
 | CVE-2019-3560 | 2019-02-26 | Server Side DoS | [Facebook Fizz integer overflow vulnerability (CVE-2019-3560)](https://securitylab.github.com/research/facebook-fizz-CVE-2019-3560) |
 | CVE-2019-11924 | 2019-08-09 | Server Side Memory Leak | [Facebook Fizz memory leak vulnerability (CVE-2019-11924) reproduce and analysis](https://lennysec.github.io/fizz-memory-leak-analysis/) |
-
-### OpenSSL Vulnerabilities
+| CVE-2020-25648 | 2020-05-28 | Server Side DoS | [Mozilla NSS TLS 1.3 CCS Flood remote DoS Attack](https://bugzilla.mozilla.org/show_bug.cgi?id=1641480) |
 
 ## Tools
 
