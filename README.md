@@ -91,7 +91,6 @@
 | [NSS](https://hg.mozilla.org/projects/nss) | 1998-03 | Mozilla, AOL, Red Hat, Sun, Oracle, Google and others | C, Assembly |
 | [OpenSSL](https://github.com/openssl/openssl) | 1998-12 | OpenSSL Project | C, Assembly |
 | [GnuTLS](https://gitlab.com/gnutls/gnutls) | 2000-03 | GnuTLS Project | C |
-| [MatrixSSL](https://github.com/matrixssl/matrixssl) | 2004-01 | PeerSec Networks | C |
 | [wolfSSL](https://github.com/wolfSSL/wolfssl) | 2006-02 | wolfSSL | C |
 | [MbedTLS](https://github.com/ARMmbed/mbedtls) | 2009-01 | Arm | C |
 | [BoringSSL](https://github.com/google/boringssl) | 2014-06 | Google | C, C++, Go, Assembly |
