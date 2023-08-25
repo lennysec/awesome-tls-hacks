@@ -118,7 +118,9 @@ More information:
 | 1.0.1 | 2012-03-14 | 1.0.1u | 2016-09-22 |
 | 1.0.2 | 2015-01-22 | 1.0.2u | 2019-12-20 |
 | 1.1.0 | 2016-08-25 | 1.1.0l | 2019-09-10 |
-| 1.1.1 | 2018-09-11 | 1.1.1l | 2021-08-24 |
+| 1.1.1 | 2018-09-11 | 1.1.1v | 2023-08-01 |
+| 3.0.0 | 2021-09-07 | 3.0.10 | 2023-08-01 |
+| 3.1.0 | 2023-03-14 | 3.1.2 | 2023-08-01 |
 
 ## Vulnerabilities with Details
 
@@ -147,7 +149,7 @@ AFLNet
 ### Programing
 
 Python built-in TLS wrapper  
-<https://docs.python.org/3.8/library/ssl.html>
+<https://docs.python.org/3.11/library/ssl.html>
 
 Go Package tls  
 <https://golang.org/pkg/crypto/tls/>
