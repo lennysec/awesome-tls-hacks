@@ -11,15 +11,14 @@
       - [RC4 Issues](#rc4-issues)
       - [Compression Issues](#compression-issues)
       - [RSA Issues](#rsa-issues)
+      - [Diffie-Hellman (DH) Key Exchange Issues](#diffie-hellman-dh-key-exchange-issues)
     - [Implementation Issues](#implementation-issues)
-  - [Some Open Source Implementations of SSL/TLS](#some-open-source-implementations-of-ssltls)
+  - [Popular Open Source Implementations of SSL/TLS](#popular-open-source-implementations-of-ssltls)
   - [OpenSSL Version History](#openssl-version-history)
-  - [Vulnerabilities](#vulnerabilities)
-    - [Fizz Vulnerabilities](#fizz-vulnerabilities)
-    - [OpenSSL Vulnerabilities](#openssl-vulnerabilities)
+  - [Vulnerabilities with Details](#vulnerabilities-with-details)
   - [Tools](#tools)
     - [Fuzzing](#fuzzing)
-    - [Programing](#programing)
+    - [Programming](#programming)
     - [Scanning](#scanning)
     - [Others](#others)
   - [Glossary](#glossary)
@@ -74,6 +73,13 @@
 | Adaptive chosen ciphertext attack | 1998-08 | [Bleichenbacher, Daniel. "Chosen ciphertext attacks against protocols based on the RSA encryption standard PKCS# 1." Annual International Cryptology Conference. Springer, Berlin, Heidelberg, 1998.](https://link.springer.com/content/pdf/10.1007/BFb0055716.pdf) |
 | ROBOT | 2018-08 | [Böck, Hanno, Juraj Somorovsky, and Craig Young. "Return Of Bleichenbacher’s Oracle Threat (ROBOT)." 27th USENIX Security Symposium (USENIX Security 18). 2018.](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-bock.pdf) |
 
+#### Diffie-Hellman (DH) Key Exchange Issues
+
+| Attack Name | Published Date | Paper |
+| --- | --- | --- |
+| Logjam | 2015-10 | [Adrian, David, et al. "Imperfect forward secrecy: How Diffie-Hellman fails in practice." Proceedings of the 22nd ACM SIGSAC Conference on Computer and Communications Security. 2015.](https://weakdh.org/imperfect-forward-secrecy.pdf) |
+| Raccoon Attack | 2021-02 | [Merget, Robert, et al. "Raccoon Attack: Finding and Exploiting Most-Significant-Bit-Oracles in TLS-DH(E)." 30th USENIX Security Symposium (USENIX Security 21). 2021.](https://www.usenix.org/system/files/sec21-merget.pdf) |
+
 ### Implementation Issues
 
 | Attack Name | Published Date | Paper |
@@ -81,10 +87,9 @@
 | OpenSSL Heartbleed | 2014-04 | [Durumeric, Zakir, et al. "The matter of heartbleed." Proceedings of the 2014 conference on internet measurement conference. 2014.](http://conferences2.sigcomm.org/imc/2014/papers/p475.pdf) |
 | Triple Handshake | 2014-05 | [Bhargavan, Karthikeyan, et al. "Triple handshakes and cookie cutters: Breaking and fixing authentication over TLS." 2014 IEEE Symposium on Security and Privacy. IEEE, 2014.](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.686.2786&rep=rep1&type=pdf) |
 | FREAK | 2015-05 | [Beurdouche, Benjamin, et al. "A messy state of the union: Taming the composite state machines of TLS." 2015 IEEE Symposium on Security and Privacy. IEEE, 2015.](https://prosecco.gforge.inria.fr/personal/karthik/pubs/messy-state-of-the-union-oakland15.pdf) |
-| Logjam | 2015-10| [Adrian, David, et al. "Imperfect forward secrecy: How Diffie-Hellman fails in practice." Proceedings of the 22nd ACM SIGSAC Conference on Computer and Communications Security. 2015.](https://weakdh.org/imperfect-forward-secrecy.pdf) |
 | SLOTH | 2016-02 | [Bhargavan, Karthikeyan, and Gaëtan Leurent. "Transcript Collision Attacks: Breaking Authentication in TLS, IKE, and SSH." In Network and Distributed System Security Symposium (NDSS). 2016.](https://www.ndss-symposium.org/wp-content/uploads/2017/09/transcript-collision-attacks-breaking-authentication-tls-ike-ssh.pdf) |
 
-## Some Open Source Implementations of SSL/TLS
+## Popular Open Source Implementations of SSL/TLS
 
 | Implementation | Initial release | Developed by | Written in |
 | --- | --- | --- | --- |
@@ -129,6 +134,7 @@ More information:
 | CVE-2019-3560 | 2019-02-26 | Server Side DoS | [Facebook Fizz integer overflow vulnerability (CVE-2019-3560)](https://securitylab.github.com/research/facebook-fizz-CVE-2019-3560) |
 | CVE-2019-11924 | 2019-08-09 | Server Side Memory Leak | [Facebook Fizz memory leak vulnerability (CVE-2019-11924) reproduce and analysis](https://lennysec.github.io/fizz-memory-leak-analysis/) |
 | CVE-2020-25648 | 2020-05-28 | Server Side DoS | [Mozilla NSS TLS 1.3 CCS Flood remote DoS Attack](https://bugzilla.mozilla.org/show_bug.cgi?id=1641480) |
+| CVE-2021-3449 | 2021-03-25 | Server Side DoS | [CVE-2021-3449 OpenSSL <1.1.1k DoS exploit](https://github.com/riptl/cve-2021-3449) |
 
 ## Tools
 
@@ -146,7 +152,7 @@ Fuzzowski
 AFLNet  
 <https://github.com/aflnet/aflnet>
 
-### Programing
+### Programming
 
 Python built-in TLS wrapper  
 <https://docs.python.org/3.11/library/ssl.html>
@@ -176,7 +182,7 @@ Qualys SSL Labs online tests
 The New Illustrated TLS Connection  
 <https://tls13.ulfheim.net/>
 
-Stellastra TLS Cipher Suite DB
+Stellastra TLS Cipher Suite DB  
 <https://stellastra.com/cipher-suite>
 
 ## Glossary
