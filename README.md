@@ -135,7 +135,7 @@ More information:
 
 ## Vulnerabilities with Details
 
-| CVE-ID <div style="width: 130px"> |  Disclosure Date | Type | Analysis |
+| CVE ID |  Disclosure Date | Type | Analysis |
 | --- | --- | --- | --- |
 | CVE-2019-3560 | 2019-02-26 | Server Side DoS | [Facebook Fizz integer overflow vulnerability (CVE-2019-3560)](https://securitylab.github.com/research/facebook-fizz-CVE-2019-3560) |
 | CVE-2019-11924 | 2019-08-09 | Server Side Memory Leak | [Facebook Fizz memory leak vulnerability (CVE-2019-11924) reproduce and analysis](https://lennysec.github.io/fizz-memory-leak-analysis/) |
