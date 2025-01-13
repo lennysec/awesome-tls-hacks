@@ -41,11 +41,11 @@
 
 #### CBC Issues
 
-| Attack Name | Published Date | Affected Version | Paper |
+| Attack Name | Published Date | Affected Versions | Paper |
 | --- | --- | --- | --- |
 | Bleichenbacher | 2003-09 | SSL 3.0 | [Klima, Vlastimil, Ondrej Pokorný, and Tomáš Rosa. "Attacking RSA-based sessions in SSL/TLS." International Workshop on Cryptographic Hardware and Embedded Systems. Springer, Berlin, Heidelberg, 2003.](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.304.9703&rep=rep1&type=pdf) |
-| BEAST | 2011-05 | SSL 3.0, TLS 1.0 | [Rizzo, Juliano, and Thai Duong. "Here come the xor ninjas." In Ekoparty Security Conference, 2011.](https://nerdoholic.org/uploads/dergln/beast_part2/ssl_jun21.pdf) |
-| Lucky Thirteen | 2013-02 | SSL 3.0, TLS 1.0, TLS 1.1, TLS 1.2 | [Al Fardan, Nadhem J., and Kenneth G. Paterson. "Lucky thirteen: Breaking the TLS and DTLS record protocols." 2013 IEEE Symposium on Security and Privacy. IEEE, 2013.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6547131) |
+| BEAST | 2011-05 | SSL 3.0<br>TLS 1.0 | [Rizzo, Juliano, and Thai Duong. "Here come the xor ninjas." In Ekoparty Security Conference, 2011.](https://nerdoholic.org/uploads/dergln/beast_part2/ssl_jun21.pdf) |
+| Lucky Thirteen | 2013-02 | SSL 3.0<br>TLS 1.0<br>TLS 1.1<br>TLS 1.2 | [Al Fardan, Nadhem J., and Kenneth G. Paterson. "Lucky thirteen: Breaking the TLS and DTLS record protocols." 2013 IEEE Symposium on Security and Privacy. IEEE, 2013.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6547131) |
 | POODLE | 2014-10 | SSL 3.0 | [Möller, Bodo, Thai Duong, and Krzysztof Kotowicz. "This POODLE bites: exploiting the SSL 3.0 fallback." Security Advisory (2014).](https://computergeek.nl/wp-content/uploads/2014/10/ssl-poodle.pdf) |
 | DROWN | 2016-08 | SSL 2.0 | [Aviram, Nimrod, et al. "DROWN: Breaking TLS Using SSLv2." 25th USENIX Security Symposium (USENIX Security 16). 2016.](https://drownattack.com/drown-attack-paper.pdf) |
 
@@ -91,7 +91,7 @@
 
 ## Popular Open Source Implementations of SSL/TLS
 
-| Implementation | Initial release | Developed by | Written in |
+| Implementation | Original Release Date | Developed by | Written in |
 | --- | --- | --- | --- |
 | [NSS](https://hg.mozilla.org/projects/nss) | 1998-03 | Mozilla, AOL, Red Hat, Sun, Oracle, Google and others | C, Assembly |
 | [OpenSSL](https://github.com/openssl/openssl) | 1998-12 | OpenSSL Project | C, Assembly |
@@ -109,7 +109,7 @@ More information:
 
 ## OpenSSL Version History
 
-| Major version | Original release date | Last minor version | Last update date |
+| Major Version | Original Release Date | Last Minor Version | Last Update Date |
 | --- | --- | --- | --- |
 | 0.9.1 | 1998-12-23 | 0.9.1c | 1998-12-23 |
 | 0.9.2 | 1999-03-22 | 0.9.2b | 1999-04-06 |
@@ -135,7 +135,7 @@ More information:
 
 ## Vulnerabilities with Details
 
-| CVE-ID |  Disclosure date | Type | Analysis |
+| CVE-ID <div style="width: 130px"> |  Disclosure Date | Type | Analysis |
 | --- | --- | --- | --- |
 | CVE-2019-3560 | 2019-02-26 | Server Side DoS | [Facebook Fizz integer overflow vulnerability (CVE-2019-3560)](https://securitylab.github.com/research/facebook-fizz-CVE-2019-3560) |
 | CVE-2019-11924 | 2019-08-09 | Server Side Memory Leak | [Facebook Fizz memory leak vulnerability (CVE-2019-11924) reproduce and analysis](https://lennysec.github.io/fizz-memory-leak-analysis/) |
